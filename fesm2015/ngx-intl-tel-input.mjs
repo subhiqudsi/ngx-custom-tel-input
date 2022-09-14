@@ -569,7 +569,7 @@ class NgxIntlTelInputComponent {
     this.checkSeparateDialCodeStyle();
   }
 
-  _normaliseArabic(input: string) {
+  _normaliseArabic(input) {
     return input
       .replaceAll('\u0610', '') //ARABIC SIGN SALLALLAHOU ALAYHE WA SALLAM
       .replaceAll('\u0611', '') //ARABIC SIGN ALAYHE ASSALLAM
